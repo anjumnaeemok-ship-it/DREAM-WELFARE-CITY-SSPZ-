@@ -1,16 +1,13 @@
 .logo {
-    width: 150px;      /* adjust size as needed */
+    width: 150px;     
     height: auto;
-    display: block;    /* ensures it is on its own line */
-    margin: 0 auto;    /* centers horizontally */
+    display: block;   
+    margin: 0 auto;   
 }
-
 header {
     text-align: center; 
     padding: 20px 0;
-    background-color: #f8f8f8; /* optional */
 }
-
 /* Smooth scrolling */
 html {
   scroll-behavior: smooth;
@@ -225,4 +222,5 @@ footer {
   opacity: 1;
   transform: translateY(0);
 }
+
 
