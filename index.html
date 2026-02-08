@@ -76,113 +76,176 @@
     /* PLEX SANS */
 
     /* ibm-plex-sans-regular - latin */
-    @font-face {
-      font-family: 'IBM Plex Sans';
-      font-style: normal;
-      font-weight: 400;
-      src: local('IBM Plex Sans Regular'), local('IBMPlexSans-Regular'),
-          url('/public/fonts/ibm-plex-sans-v8-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-          url('/public/fonts/ibm-plex-sans-v8-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-    }
-    /* ibm-plex-sans-italic - latin */
-    @font-face {
-      font-family: 'IBM Plex Sans';
-      font-style: italic;
-      font-weight: 400;
-      src: local('IBM Plex Sans Italic'), local('IBMPlexSans-Italic'),
-          url('/public/fonts/ibm-plex-sans-v8-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-          url('/public/fonts/ibm-plex-sans-v8-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-    }
-    /* ibm-plex-sans-500 - latin */
-    @font-face {
-      font-family: 'IBM Plex Sans';
-      font-style: normal;
-      font-weight: 500;
-      src: local('IBM Plex Sans Medium'), local('IBMPlexSans-Medium'),
-          url('/public/fonts/ibm-plex-sans-v8-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-          url('/public/fonts/ibm-plex-sans-v8-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-    }
-    /* ibm-plex-sans-500italic - latin */
-    @font-face {
-      font-family: 'IBM Plex Sans';
-      font-style: italic;
-      font-weight: 500;
-      src: local('IBM Plex Sans Medium Italic'), local('IBMPlexSans-Medium-Italic'),
-          url('/public/fonts/ibm-plex-sans-v8-latin-500italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-          url('/public/fonts/ibm-plex-sans-v8-latin-500italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-    }
-    /* ibm-plex-sans-600 - latin */
-    @font-face {
-      font-family: 'IBM Plex Sans';
-      font-style: normal;
-      font-weight: 600;
-      src: local('IBM Plex Sans Semibold'), local('IBMPlexSans-Semibold'),
-          url('/public/fonts/ibm-plex-sans-v8-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-          url('/public/fonts/ibm-plex-sans-v8-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-    }
-    /* ibm-plex-sans-600italic - latin */
-    @font-face {
-      font-family: 'IBM Plex Sans';
-      font-style: italic;
-      font-weight: 600;
-      src: local('IBM Plex Sans Semibold Italic'), local('IBMPlexSans-Semibold-Italic'),
-          url('/public/fonts/ibm-plex-sans-v8-latin-600italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-          url('/public/fonts/ibm-plex-sans-v8-latin-600italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-    }
+    /* ================================
+   IBM Plex Sans (Main body & headings)
+   ================================ */
 
-    /* ABC Diatype */
-    @font-face {
-      font-family: 'ABC Diatype';
-      font-weight: 100 1000;
-      src: local('ABC Diatype'), local('ABCDiatype'),
-          url('/public/fonts/ABCDiatypePlusVariable-Regular.woff2') format('woff2')
-    }
+/* Regular 400 */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('IBM Plex Sans Regular'), local('IBMPlexSans-Regular'),
+       url('/public/fonts/ibm-plex-sans-v8-latin-regular.woff2') format('woff2'),
+       url('/public/fonts/ibm-plex-sans-v8-latin-regular.woff') format('woff');
+}
 
-    /* ABC Diatype Variable */
-    @font-face {
-      font-family: 'ABC Diatype Variable';
-      font-weight: 100 1000;
-      src: local('ABC Diatype Variable'), local('ABCDiatypeVariable'),
-          url('/public/fonts/ABCDiatype-RegularPixelBeta.woff2') format('woff2')
-    }
+/* Italic 400 */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('IBM Plex Sans Italic'), local('IBMPlexSans-Italic'),
+       url('/public/fonts/ibm-plex-sans-v8-latin-italic.woff2') format('woff2'),
+       url('/public/fonts/ibm-plex-sans-v8-latin-italic.woff') format('woff');
+}
 
-    /* ABC Diatype Pixel */
-    @font-face {
-      font-family: 'ABC Diatype Pixel';
-      font-style: normal;
-      font-weight: 400;
-      font-feature-settings: '"ss15"';
-      src: local('ABC Diatype Pixel'), local('ABCDiatypePixel'),
-        url('/public/fonts/ABCDiatype-RegularPixelBeta.woff') format('woff'),
-        url('/public/fonts/ABCDiatype-RegularPixelBeta.woff2') format('woff2')
-    }
-  </style><style data-next-head="">
-        @font-face {
-          font-family: 'ReplitHack';
-          src: url('/public/fonts/hack-regular.woff2?sha=3114f1256') format('woff2'), url('/public/fonts/hack-regular.woff?sha=3114f1256') format('woff');
-          font-weight: 400;
-          font-style: normal;
-        }
-        
-        @font-face {
-          font-family: 'ReplitHack';
-          src: url('/public/fonts/hack-bold.woff2?sha=3114f1256') format('woff2'), url('/public/fonts/hack-bold.woff?sha=3114f1256') format('woff');
-          font-weight: 700;
-          font-style: normal;
-        }
-        
-        @font-face {
-          font-family: 'ReplitHack';
-          src: url('/public/fonts/hack-italic.woff2?sha=3114f1256') format('woff2'), url('/public/fonts/hack-italic.woff?sha=3114f1256') format('woff');
-          font-weight: 400;
-          font-style: italic;
-        }
-        
-        @font-face {
-          font-family: 'ReplitHack';
-          src: url('/public/fonts/hack-bolditalic.woff2?sha=3114f1256') format('woff2'), url('/public/fonts/hack-bolditalic.woff?sha=3114f1256') format('woff');
-          font-weight: 700;
-          font-style: italic;
+/* Medium 500 */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: local('IBM Plex Sans Medium'), local('IBMPlexSans-Medium'),
+       url('/public/fonts/ibm-plex-sans-v8-latin-500.woff2') format('woff2'),
+       url('/public/fonts/ibm-plex-sans-v8-latin-500.woff') format('woff');
+}
+
+/* Medium Italic 500 */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: italic;
+  font-weight: 500;
+  src: local('IBM Plex Sans Medium Italic'), local('IBMPlexSans-Medium-Italic'),
+       url('/public/fonts/ibm-plex-sans-v8-latin-500italic.woff2') format('woff2'),
+       url('/public/fonts/ibm-plex-sans-v8-latin-500italic.woff') format('woff');
+}
+
+/* SemiBold 600 */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('IBM Plex Sans Semibold'), local('IBMPlexSans-Semibold'),
+       url('/public/fonts/ibm-plex-sans-v8-latin-600.woff2') format('woff2'),
+       url('/public/fonts/ibm-plex-sans-v8-latin-600.woff') format('woff');
+}
+
+/* SemiBold Italic 600 */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: local('IBM Plex Sans Semibold Italic'), local('IBMPlexSans-Semibold-Italic'),
+       url('/public/fonts/ibm-plex-sans-v8-latin-600italic.woff2') format('woff2'),
+       url('/public/fonts/ibm-plex-sans-v8-latin-600italic.woff') format('woff');
+}
+
+/* Default usage for body & headings */
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 600; /* or 500 depending on design */
+}
+
+/* Italics example */
+em, i {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-style: italic;
+}
+
+/* ================================
+   ABC Diatype (Headings / Display / Pixel style)
+   ================================ */
+
+/* Variable */
+@font-face {
+  font-family: 'ABC Diatype';
+  font-weight: 100 1000;
+  src: local('ABC Diatype'), local('ABCDiatype'),
+       url('/public/fonts/ABCDiatypePlusVariable-Regular.woff2') format('woff2');
+}
+
+/* Variable Pixel */
+@font-face {
+  font-family: 'ABC Diatype Variable';
+  font-weight: 100 1000;
+  src: local('ABC Diatype Variable'), local('ABCDiatypeVariable'),
+       url('/public/fonts/ABCDiatype-RegularPixelBeta.woff2') format('woff2');
+}
+
+/* Pixel (special feature settings) */
+@font-face {
+  font-family: 'ABC Diatype Pixel';
+  font-style: normal;
+  font-weight: 400;
+  font-feature-settings: '"ss15"';
+  src: local('ABC Diatype Pixel'), local('ABCDiatypePixel'),
+       url('/public/fonts/ABCDiatype-RegularPixelBeta.woff') format('woff'),
+       url('/public/fonts/ABCDiatype-RegularPixelBeta.woff2') format('woff2');
+}
+
+/* Example usage */
+.display-heading {
+  font-family: 'ABC Diatype', sans-serif;
+  font-weight: 700;
+}
+
+.pixel-text {
+  font-family: 'ABC Diatype Pixel', monospace;
+  font-weight: 400;
+}
+
+/* ================================
+   ReplitHack (Code blocks / Monospace)
+   ================================ */
+
+/* Regular */
+@font-face {
+  font-family: 'ReplitHack';
+  src: url('/public/fonts/hack-regular.woff2') format('woff2'),
+       url('/public/fonts/hack-regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Bold */
+@font-face {
+  font-family: 'ReplitHack';
+  src: url('/public/fonts/hack-bold.woff2') format('woff2'),
+       url('/public/fonts/hack-bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Italic */
+@font-face {
+  font-family: 'ReplitHack';
+  src: url('/public/fonts/hack-italic.woff2') format('woff2'),
+       url('/public/fonts/hack-italic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Bold Italic */
+@font-face {
+  font-family: 'ReplitHack';
+  src: url('/public/fonts/hack-bolditalic.woff2') format('woff2'),
+       url('/public/fonts/hack-bolditalic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Example usage */
+code, pre {
+  font-family: 'ReplitHack', monospace;
+  font-size: 0.95rem;
+}
         }
         </style><script>
 window.preloadErrorHandler = function (event) {
